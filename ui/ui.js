@@ -73,8 +73,8 @@ function animate() {
    cube.rotation.x += cubeRotation
    cube.rotation.y += cubeRotation
 
-   torus.rotation.x += 0.05
-   torus.rotation.y += 0.05
+   torus.rotation.x += 0.005
+   torus.rotation.y += 0.005
 
    controls.update()
    renderer.render(scene, camera)
